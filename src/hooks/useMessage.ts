@@ -4,7 +4,7 @@ import { useCallback } from "react"
 type Props = {
   title: string;
   status: "info" | "warning" | "success" | "error";
-}
+};
 
 
 export const useMessage = () => {
@@ -22,4 +22,4 @@ export const useMessage = () => {
     [toast]);
 
   return { showMessage }
-}
+};

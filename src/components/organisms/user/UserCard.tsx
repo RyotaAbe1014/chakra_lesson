@@ -29,5 +29,5 @@ export const UserCard: FC<Props> = memo((props) => {
         </Stack>
       </Box>
     </>
-  )
+  );
 });

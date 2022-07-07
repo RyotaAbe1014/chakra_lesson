@@ -2,7 +2,7 @@ import { Children, createContext, Dispatch, ReactNode, SetStateAction, useState 
 import { User } from "../types/api/user";
 
 
-type loginUser =  User & { isAdmin: boolean };
+type loginUser = User & { isAdmin: boolean };
 
 export type LoginUserContextType = {
   loginUser: loginUser | null;
